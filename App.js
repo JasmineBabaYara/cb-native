@@ -10,7 +10,7 @@ LogBox.ignoreLogs([
 ]);
 
 function App() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   if (isLoggedIn) {
     return (
       <NavigationContainer>
